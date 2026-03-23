@@ -4,6 +4,7 @@ Um simples gerador de tabela verdade para expressões de lógica proprosicional 
 ## Como isso funciona?
 
 -Input do usuário
+
 | Symbol | Name                | Example        |
 |--------|---------------------|----------------|
 | ~      | Negation (NOT)      | ~p             |
@@ -14,8 +15,11 @@ Um simples gerador de tabela verdade para expressões de lógica proprosicional 
 | ( )    | parentheses         | (p -> q) & s   |
 
 - Tokenização
-- Parsing via algoritmo Shunting Yard 
+  
+- Parsing via algoritmo Shunting Yard
+  
 - Evaluação de expressão pós-fixa (Notação Polonesa Inversa)
+  
 - Output
 
 
