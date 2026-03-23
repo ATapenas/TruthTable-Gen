@@ -4,11 +4,12 @@ Um simples gerador de tabela verdade para expressões de lógica proprosicional 
 ## Como isso funciona?
 
 -Input do usuário
-| ~      | Negação (NOT)   | ~p             
-| &      | E  (AND)        | p & q          
-| |      | OU (OR)         | p | q          
-| ->     | Implicação      | p -> q         
-| ==     | Bicondicional   | p == q         
+|--------|---------------------|----------|
+| ~      | Negation            | ~p       |
+| &      | AND                 | p & q    |
+| \|     | OR                  | p | q    |
+| ->     | Implication         | p -> q   |
+| ==     | Biconditional       | p == q   |         
 
 - Tokenização
 - Parsing via algoritmo Shunting Yard 
